@@ -16,7 +16,6 @@ from ..module.nms import multiclass_nms
 from .assigner.dsl_assigner import DynamicSoftLabelAssigner
 from .gfl_head import Integral, reduce_mean
 
-
 class NanoDetPlusHead(nn.Module):
     """Detection head used in NanoDet-Plus.
 
